@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav>
+        <!--flex container-->
+        <div class="flex items-center justify-between px-10 py-10">
+
+<!--logo-->
+        <div class="pt-2">
+     <img src="/default-logo.png.png" alt="logo"> 
+    </div>
+    <!--menu items-->
+    <div>
+        <a href="#" class="hover:text-brightRed">pricing</a>
+        <a href="#" class="hover:text-darkgrayishblue">product</a>
+        <a href="#" class="hover:text-darkgrayishblue">about us</a>
+        <a href="#" class="hover:text-darkgrayishblue">careers</a>
+        <a href="#" class="hover:text-darkgrayishblue">community</a>
+    </div>
+    <!--button-->
+    <a href="#" class="p-3 px-6 text-black bg-brightRed rounded">get started</a>
+
+    </div>
+    <!--i mobile-->
+    </nav>
+
+    
+    <script>
+        tailwind.config ={
+            theme:{
+                extend:{
+                    colors:{
+                        darkGrayishBlue:'hsl(228,39%,23%)' ,
+                        brightRed:'hsl(12,88%,59%)'
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
